@@ -2,8 +2,4 @@
 // doc has one attribute 'name' with value 'Holberton school'
 // database name is passed as an option of mongo command
 
-db.school.insertOne(
-  {
-    name: "Holberton school"
-  }
-)
+db.school.insertOne({"name": "Holberton school"})
